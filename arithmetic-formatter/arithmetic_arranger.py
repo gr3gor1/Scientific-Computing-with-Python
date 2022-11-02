@@ -16,6 +16,9 @@ def arithmetic_arranger(problems,disp=False):
   diffs3=[]
   b=''
   d=''
+    
+  #check for errors    
+  #its easy to observe the possible errors by taking a look at the following return statements
   if(len(problems)>5):
     return("Error: Too many problems.")
   
@@ -43,6 +46,8 @@ def arithmetic_arranger(problems,disp=False):
     operator.append(temp[1])
     second.append(temp[2])
   
+  #after collecting the input data and separate them accordingly
+  #we have to return the final outcome depending on the disp argument
   for i in range(len(first)):
     d=''
     ap=''
