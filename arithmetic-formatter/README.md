@@ -11,4 +11,4 @@ Some examples of expected results can be found below :
 
 The full description of the project can be found here : https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
 
-Check the functional project and the the tests here (Replit) : https://replit.com/@GrigoriosPapani/arithmetic-formatter#arithmetic_arranger.py
+Check the functional project and the the tests here (Replit) : https://replit.com/join/uuogbdsnms-grigoriospapani
