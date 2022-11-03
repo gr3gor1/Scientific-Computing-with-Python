@@ -1,21 +1,26 @@
 def add_time(start, duration,day=' '):
   
+  #get the day argument
   day=day.lower()
   day=day.capitalize()
   weekDays=["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]
   
+  #get the start argument and alter it accordingly
   timestampStart=start.split(' ')
   timeStart=timestampStart[0].split(':')
   if(timestampStart[1]=='PM'):
     timeStart[0]=str(int(timeStart[0])+12)
   minuteStart=[int(timeStart[0])*60,int(timeStart[1])]
-
+  
+  #get the duration argument and alter it accordingly
   timestampDuration=duration.split(' ')
   timeDuration=timestampDuration[0].split(':')
   minuteDuration=[int(timeDuration[0])*60,int(timeDuration[1])]
-    
+  
+  #get the total minutes
   total=minuteStart[0]+minuteStart[1]+minuteDuration[0]+minuteDuration[1]
 
+  #decide on whether the day has changed (and PM to AM)
   leftMins=total%1440
   days=(total-leftMins)/1440
   
