@@ -21,7 +21,7 @@ Transfer to Clothing    -50.00
 Total: 923.96
 ```
 
-In order to complete the project we also create a function that creates a chart such as the on given below :
+In order to complete the project there has to be a function that creates a chart such as the on given below :
 
 ```
 Percentage spent by category
