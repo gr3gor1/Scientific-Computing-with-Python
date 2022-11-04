@@ -8,7 +8,8 @@ class Category:
     self.type=typ
     self.ledger=[]
     self.balance=0.0
-
+  
+  #deposit an amount of money
   def deposit(self,amount,description=''):
     dummy={}
     dummy["amount"]=float(amount)
@@ -16,6 +17,7 @@ class Category:
     dummy["description"]=description
     self.ledger.append(dummy)
     
+  #withdraw money from a category  
   def withdraw(self,amount,description=''):
     dummy={}
     dummy["amount"]=float(-amount)
@@ -26,13 +28,15 @@ class Category:
     else:
       return False
 
+  #get balance of a category  
   def get_balance(self):
     final_balance = self.balance
     for i in self.ledger:
       if (i["amount"]<0):
         final_balance = final_balance + float(i['amount'])
     return final_balance
-
+  
+  #transfer money to another category
   def transfer(self,amount,obj):
     string = str(obj.type)
     string1 = str(self.type)
@@ -44,14 +48,16 @@ class Category:
       return True
     else:
       return False
-
+    
+  #check whether the necessary funds exist
   def check_funds(self,amount):
     bal = self.get_balance()
     if(bal>=amount):
       return True
     else:
       return False
-
+  
+  #print info
   def __repr__(self):
     name = self.type
     header = name.center(30,"*")+"\n"
@@ -66,6 +72,7 @@ class Category:
     return header
         
 def create_spend_chart(categories):
+  #create dimensions of output
   dict = {}
   output = ''
   strings = []
@@ -75,9 +82,10 @@ def create_spend_chart(categories):
     final = i.get_balance()
     number = math.floor(initial-final)
     dict[key] = math.floor(number/10)*10
-
+  
   indexes = (len(dict.keys())*3)+1
   max = 100
+  #create the necessary strings line by line
   strings.append("Percentage spent by category\n")
   for i in range(100,-10,-10):
     output= str(i).rjust(3)+'|'
@@ -114,6 +122,6 @@ def create_spend_chart(categories):
         output = output + "   "
     output = output + ' \n'
   strings.append(output[:-1])
-    
+  #join all the lines so as to get the full string  
   strings=''.join(strings)
   return strings
