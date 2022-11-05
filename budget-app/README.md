@@ -47,7 +47,7 @@ Percentage spent by category
         g     
 ```
 
-The point of this chart is to describe the percentage of money per category.
+The point of this chart is to describe the percentage of money per category. In the test_module.py you can check the tests of this projects.
 
 
 Check the full description of the project here : https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app

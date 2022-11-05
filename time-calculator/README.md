@@ -7,7 +7,7 @@ Write a function named add_time that takes in two required parameters and one op
 
   3. a starting day of the week, case insensitive
 
-The function should add the duration time to the start time and return the result.
+The function should add the duration time to the start time and return the result. You can check the tests in test_module.py .
 
 Some examples of expected outputs and use cases are provided below :
 
