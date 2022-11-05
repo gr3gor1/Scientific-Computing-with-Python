@@ -1,4 +1,4 @@
-Create a function that receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to True, the answers should be displayed. The solution can be found in arithmetic_arranger.py. You can also check the test_module.py in order to check the tests of this project.
+Create a function that receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to True, the answers should be displayed. The solution can be found in arithmetic_arranger.py. You can also check the test_module.py for the tests of this project.
 
 Some examples of expected results can be found below :
 
