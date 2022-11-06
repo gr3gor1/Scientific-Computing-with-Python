@@ -7,6 +7,7 @@ class Hat:
   contents=[]
   temp=[]
   
+  #initialize class Hat
   def __init__(self,**kwargs):
     self.ledger.clear()
     self.contents.clear()
@@ -17,6 +18,7 @@ class Hat:
         self.contents.append(keys)
         self.temp.append(keys)
 
+  #draw specific number of balls      
   def draw(self,nums):
     start = 0
     dummy =[]
@@ -39,7 +41,7 @@ class Hat:
     return self.contents
     
 
-
+#create experiment
 def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
   exps = 0
   for i in range(0,num_experiments):
