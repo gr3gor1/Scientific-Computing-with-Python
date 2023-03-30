@@ -2,4 +2,4 @@
 FCC Projects
 
 ## Description :
-This repository contains the final projects of Scientific Computing with Python Certification on FreeCodeCamp.
+This repository contains the projects developed in order to complete the Scientific Computing with Python Certification on FreeCodeCamp.
