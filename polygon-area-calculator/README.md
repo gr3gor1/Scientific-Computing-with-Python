@@ -63,6 +63,6 @@ Square(side=4)
 8
 ```
 
-Check the fully functional project along with the test units in replit : https://replit.com/join/navvqhbjyx-grigoriospapani
+Check the functional project along with the test units in replit : https://replit.com/join/navvqhbjyx-grigoriospapani
 
 Check the full description on FreeCodeCamp : https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/polygon-area-calculator  
