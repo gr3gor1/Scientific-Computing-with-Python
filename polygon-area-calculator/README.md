@@ -1,4 +1,4 @@
-In this project there was used object oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes. Those classes can be found in the shape_calculator.py file. Also you can check the tests of this project in the test_module.py file.
+In this project object oriented programming was used to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes. Those classes can be found in the shape_calculator.py file. Also you can check the tests of this project in the test_module.py file.
 
 Rectangle class : 
 
@@ -63,6 +63,6 @@ Square(side=4)
 8
 ```
 
-Check the functional project along with the test units here : https://replit.com/join/navvqhbjyx-grigoriospapani
+Check the functional project along with the tests here : https://replit.com/join/navvqhbjyx-grigoriospapani
 
 Check the full description on FreeCodeCamp : https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/polygon-area-calculator  
